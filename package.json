@@ -1,0 +1,19 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT Photo App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "photo",
+    "camera",
+    "app"
+  ],
+  "author": "Burak Boduroğlu",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}
