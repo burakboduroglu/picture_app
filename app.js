@@ -1,16 +1,16 @@
 const express = require('express');
 const ejs = require('ejs');
-const mongoose = require('mongoose');
+const DB_CONNECTION = require('./controllers/connectionController');
 const fileUpload = require('express-fileupload');
 const methodOverride = require('method-override');
 const photoController = require('./controllers/photoControllers');
 const pageController = require('./controllers/pageController');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 4000;
 
 //CONNECT DB
-mongoose.connect('mongodb://127.0.0.1:27017/pcat-db');
+DB_CONNECTION.connect;
 
 //TEMPLATE ENGINE
 app.set('view engine', 'ejs');
