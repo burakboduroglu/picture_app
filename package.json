@@ -11,6 +11,9 @@
     "camera",
     "app"
   ],
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "author": "Burak Boduroğlu",
   "license": "ISC",
   "devDependencies": {
