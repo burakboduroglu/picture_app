@@ -1,6 +1,6 @@
 ﻿## PCAT Project
 
-This project is a part of the course "Patika Academy Node.js Course".
+> This project is a part of the course "Patika Academy Node.js Course".
 
 ### Used Technologies
 
